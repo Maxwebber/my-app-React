@@ -1,0 +1,50 @@
+body{
+    background-color:white;
+}
+
+.section2{
+    padding-top: 2rem;
+}
+
+.section3{
+    padding-top: 5rem;
+}
+
+.section4{
+    padding-top: 13rem;
+}
+
+.list{
+    padding-top: 1rem;
+   
+}
+
+.icon-list{
+    height: 20px;
+    width: 20px;
+}
+
+.Card-blog{
+    display: flex;
+}
+
+.subscribe{
+    display:flex;
+    flex-direction: row;
+    height: 40px;
+    width: 40px;
+    padding-top: 8rem;
+}
+
+Container{
+    display:flex;
+}
+
+.footer{
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    height: 8rem;
+    width: 8rem;
+    
+}
