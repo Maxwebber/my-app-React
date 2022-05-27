@@ -39,7 +39,7 @@ export default Blog
 //--------------------
 /*
 
-ANTIGO
+O SEU ANTIGO
 
 const [photos, setPhotos] = useState([])
 

@@ -266,9 +266,11 @@ function Home() {
   <CFooter>
   <div className="footer">
         <img className="logofooter1" src={logotrue} alt="logo" />
+        <div className="midias">
         <img className="icon5" src={icon5} alt="logo" />
         <img className="icon6"src={icon6} alt="logo" />
         <img className="icon7" src={icon7} alt="logo" />
+        </div>
         <img className="iconlogor2" src={logofooter} alt="logo" />
         </div>
 </CFooter>
