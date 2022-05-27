@@ -24,27 +24,32 @@ body{
     width: 20px;
 }
 
-.Card-blog{
+
+.blog{
+   
+    padding-top: 3rem;
+  }
+    
+.img-blog{
     display: flex;
+    width: 100%;
+
+}
+.card-blog{
+    display: flex;
+    width: 20%;
 }
 
-.subscribe{
-    display:flex;
-    flex-direction: row;
-    height: 40px;
-    width: 40px;
-    padding-top: 8rem;
-}
-
-Container{
-    display:flex;
-}
 
 .footer{
+    height: 100%;
     background-color: black;
     display:flex;
     flex-direction: column;
-    height: 8rem;
-    width: 8rem;
+    align-items: center;
+    margin: 5px;
+	padding: 10px 10px;  
     
 }
+
+

@@ -7,10 +7,11 @@ import logotrue from "./components/img/logotrue.png";
 import {BrowserRouter, Link, Route, Routes} from 'react-router-dom';
 import {Nav, Navbar, Container} from 'react-bootstrap';
 
+
 function App() {
   return (
     <div className="App">
-      <h1></h1>
+      
       
 
       <BrowserRouter>
