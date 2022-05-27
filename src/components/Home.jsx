@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import '../App.css'; //Aqui diz para procurar um style.css na pasta atual
 import api from "./api";
 import { CFooter } from '@coreui/react';
-
 import { Container, Row, Col, Button, InputGroup, FormControl} from 'react-bootstrap';
 import illustration from "./img/Illustration 1.png";
 import illustration2 from "./img/Illustration 2.png";
@@ -20,14 +19,9 @@ import logofooter from "./img/©2020trechange.png";
 
 
 
-
-
-
-
-
-
-
 function Home() { 
+
+
 
   const [photos, setPhotos] = useState([])
 
@@ -40,6 +34,7 @@ function Home() {
         console.log("Deu errado")
       })
   }, [])
+
 
 
   const options = {
@@ -69,6 +64,7 @@ function Home() {
   };
 
   return (
+
 
 
     <>
@@ -108,9 +104,6 @@ function Home() {
             />
             <b> 90+ </b>
             Users
-
-
-
           </Col>
 
           <Col>
@@ -281,6 +274,8 @@ function Home() {
 </CFooter>
 
   </Container>
+
+
 
 
     </>
