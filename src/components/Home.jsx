@@ -269,8 +269,12 @@ function Home() {
 
   <CFooter>
   <div className="footer">
+<<<<<<< Updated upstream
         <img className="logofooter1" src={logotrue} alt="logo" />
         <div className="midias">
+=======
+        <img className="logofooter1" src={logotrue} alt="logo"  />
+>>>>>>> Stashed changes
         <img className="icon5" src={icon5} alt="logo" />
         <img className="icon6"src={icon6} alt="logo" />
         <img className="icon7" src={icon7} alt="logo" />
