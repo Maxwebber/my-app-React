@@ -3,6 +3,7 @@ import '../App.css'; //Aqui diz para procurar um style.css na pasta atual
 import api from "./api";
 import { CFooter } from '@coreui/react';
 import { Container, Row, Col, Button, InputGroup, FormControl} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import illustration from "./img/Illustration 1.png";
 import illustration2 from "./img/Illustration 2.png";
 import icon from "./img/Icon/user.png";
@@ -16,6 +17,7 @@ import icon5 from "./img/Socmed/Facebook.png";
 import icon6 from "./img/Socmed/Instagram.png";
 import icon7 from "./img/Socmed/Twitter.png";
 import logofooter from "./img/©2020trechange.png";
+
 
 
 
@@ -68,31 +70,31 @@ function Home() {
 
 
     <>
-      <Container className="section2">
-        <Row>
-          <Col className="section3">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
             <h1>Want anything to be easy with Truechange.</h1>
             <h5>Provide a network for all your needs with ease and fun using
               <b > Truechange</b> discover interesting features from us.</h5>
-            <br></br>
+              <div>
             <Button variant="danger" size="md">Get Started</Button>
-          </Col>
-
-          <Col>
-            <img
+            </div>
+    </div>
+    
+    <div class="col-sm-6">
+    <img
               src={illustration}
               width="100%"
               height="100%"
-
               alt="React Bootstrap logo"
             />
 
-          </Col>
-        </Row>
-      </Container>
-
-
-
+    </div>
+  </div>
+</div>
+    
+    
+    
       <Container className="section2">
         <Row>
           <Col>
@@ -134,25 +136,24 @@ function Home() {
         </Row>
       </Container>
 
-      <Container className="section2">
-        <Row>
-          <Col className="section3">
-            <img
+
+      <div class="container">
+      <div class="row">
+      <div class="col-sm-6">
+    <img
               src={illustration2}
               width="100%"
               height="100%"
-
               alt="React Bootstrap logo"
             />
 
-          </Col>
-
-
-          <Col className="section4">
-            <h1>We Provide Many Features You Can Use</h1>
-            <h5>You can explore the features that we provide with fun and have their own functions each feature.</h5>
-            <br></br>
-            <p className="list">
+    </div>
+        <div class="col-sm-6">
+            <h1>Want anything to be easy with Truechange.</h1>
+            <h5>Provide a network for all your needs with ease and fun using
+              <b > Truechange</b> discover interesting features from us.</h5>
+              <div>
+    <p className="list">
               <img
                 src={icon4}
                 width="30"
@@ -193,36 +194,16 @@ function Home() {
               No specific time limits.
             </p>
 
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <Row>
-          <Col className="section3">
-            <h1>Subscribe Now for Get Special Features!</h1>
-            <h6>Let's subscribe with us and find the fun.</h6>
+  </div>
+    </div>
+    
+    </div>
+    
+    
+</div>
+    
 
-          </Col>
-
-          <Col className="subscribe" >
-            <br></br>
-
-
-            <InputGroup>
-              <FormControl
-                type="text"
-                aria-label="Input group example"
-              />
-              <Button variant="danger" size="md">Subscribe</Button>
-            </InputGroup>
-
-
-
-          </Col>
-        </Row>
-
-      </Container>
-
+     
 
       
 <Container className="blog">
@@ -232,7 +213,7 @@ function Home() {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <div className="should-know-title">Blog TrueChange</div>
+            <div><h1>Blog</h1></div>
             <OwlCarousel
               className="slider-items owl-carousel"
               {...options}
@@ -260,6 +241,29 @@ function Home() {
       </div>
     </div>
     </Container>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+        <h1>Subscribe Now for Get Special Features!</h1>
+            <h6>Let's subscribe with us and find the fun.</h6>
+            
+   </div>
+    <div class="col-sm-6">
+      <div className="subscribe">
+    <InputGroup>
+      <FormControl
+         type="text"
+          aria-label="Input group example"
+          width="50%"
+              />
+              <Button variant="danger" size="md">Subscribe</Button>
+    </InputGroup>
+            </div>
+            </div>
+</div>
+         </div>
+   
 
   <Container>
 

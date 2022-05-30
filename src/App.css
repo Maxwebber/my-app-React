@@ -3,10 +3,14 @@ body{
 }
 
 .section2{
+    display: flex;
+    flex-flow: column nowrap;
+    
     padding-top: 2rem;
 }
 
 .section3{
+    display: flex;
     padding-top: 5rem;
 }
 
@@ -26,8 +30,7 @@ body{
 
 
 .blog{
-   
-    padding-top: 3rem;
+   padding-top: 3rem;
   }
     
 .img-blog{
@@ -40,7 +43,6 @@ body{
     width: 20%;
 }
 
-
 .footer{
     height: 100%;
     background-color: black;
@@ -51,6 +53,11 @@ body{
 	padding: 10px 10px;  
     
 }
+h1{
+    padding-top: 2.5rem;
+}
 
 
-
+.subscribe{
+    padding-top: 5rem;
+}
